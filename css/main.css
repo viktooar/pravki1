@@ -1,0 +1,51 @@
+body {
+    background: #ccc;
+}
+
+section {
+    width: 1920px;
+    height: 100%;
+}
+
+.fullpage-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-scrolling {
+    /*max-width: 80%;*/
+    /*max-height: 80%;*/
+    /*transform: scale(1,0.85);*/
+    background: #cc3f00;
+    margin: 0 auto;
+
+}
+
+.some1 {
+    transform: scale(1,1);
+}
+
+.some {
+    transform: scale(0.85,0.85);
+
+}
+
+.btn-menu {
+    /*display: none;*/
+    position: fixed;
+    z-index: 1000;
+    top: 25px;
+    left: 25px;
+
+    width: 150px;
+    height: 45px;
+
+    border: none;
+    cursor: pointer;
+
+    background: #4d918b;
+    color: #fff;
+    font-size: 20px;
+}
+
+
